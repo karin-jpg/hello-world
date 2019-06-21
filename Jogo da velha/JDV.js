@@ -79,7 +79,7 @@ function vitoria(vez, contador)
 				document.getElementById('recomecar').style.display = 'block';
 		}
 	}
-	if (contador == 9)
+	else if (contador == 9)
 		{
 				document.getElementById("texto").style.fontFamily = "verdana";
 				document.getElementById('texto').innerHTML="Jogo deu velha!";
