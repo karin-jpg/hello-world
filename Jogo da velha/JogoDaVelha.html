@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset = "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href = "JDV.css">
+<script type="text/javascript" src = "JDV.js"></script>
+</head>
+<body id = 'planoDeFundo'>
+<center><h1 id = 'texto' style="font-family:verdana">Vez de: Jogador 1</h1></center>
+<div id = "tabuleiro">
+	<div id = 'linha'>
+		<table class='tabela'>
+			<tr>
+				<td><button  onclick="this.disabled=true; javascript: vezDeQuem(vez, 1);" id ="botao1" class = 'campo'></button></td>
+				<td><button  onclick="this.disabled=true; javascript: vezDeQuem(vez, 2);" id ="botao2" class = 'campo'></button></td>
+				<td><button  onclick="this.disabled=true; javascript: vezDeQuem(vez, 3);" id ="botao3" class = 'campo'></button></td>
+			</tr>
+		</table>
+	</div>
+	<div id = 'linha'>
+		<table class='tabela'>
+			<tr>
+				<td><button  onclick="this.disabled=true; javascript: vezDeQuem(vez, 4);" id ="botao4" class = 'campo'></button></td>
+				<td><button  onclick="this.disabled=true; javascript: vezDeQuem(vez, 5);" id ="botao5" class = 'campo'></button></td>
+				<td><button  onclick="this.disabled=true; javascript: vezDeQuem(vez, 6);" id ="botao6" class = 'campo'></button></td>
+			</tr>
+		</table>
+	</div>
+	<div id = 'linha'>
+		<table class='tabela'>
+			<tr>
+				<td><button  onclick="this.disabled=true; javascript: vezDeQuem(vez, 7);" id ="botao7" class = 'campo'></button></td>
+				<td><button  onclick="this.disabled=true; javascript: vezDeQuem(vez, 8);" id ="botao8" class = 'campo'></button></td>
+				<td><button  onclick="this.disabled=true; javascript: vezDeQuem(vez, 9);" id ="botao9" class = 'campo'></button></td>
+			</tr>
+		</table>
+	</div>
+</div>		
+
+				<center><button onclick = 'javascript: recomecar();'id='recomecar' style='display:none'>Recomeçar</button></center>
+			
+	
+
+
+
+</body>
+</html>
