@@ -22,9 +22,7 @@ function jogador1(botao)
 	document.getElementById('texto').innerHTML="Vez de: Jogador 2";
 	vez = vez + 1;
 	contador++;
-	setTimeout(function (){
-		vitoria(vez, contador);
-	}, 50);
+	playCallback();
 }
 
 function jogador2(botao)
@@ -36,7 +34,11 @@ function jogador2(botao)
 	document.getElementById('texto').innerHTML="Vez de: Jogador 1";
 	vez = vez + 1;
 	contador++;
-	setTimeout(function (){
+	playCallback();
+}
+
+function playCallback() {
+	setTimeout(function () {
 		vitoria(vez, contador);
 	}, 50);
 }
